@@ -6,7 +6,7 @@
 * [Issues](https://github.com/obrignoni/flash/issues)
 * Compatible with PyroCMS 2.0.0-beta1
 
-## Decription
+## Description
   
 Easily embed Flash Player content in your website.
 
