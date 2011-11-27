@@ -4,9 +4,9 @@
 
 * [PyroCMS Website](http://pyrocms.com/)
 * [Issues](https://github.com/obrignoni/flash/issues)
-* Compatible with PyroCMS 2.0.0-beta1
+* Compatible with PyroCMS 2.0
 
-## Description
+## Usage
   
 Easily embed Flash Player content in your website.
 
@@ -15,4 +15,4 @@ Easily embed Flash Player content in your website.
 3. Copy the **widget code** and paste it on a Page, Template or Theme.
 
 
-Note: The flash filename must end with a **.swf** extension. i.e. animation.swf
+Note: The filename must end with a **.swf** extension. i.e. animation.swf
