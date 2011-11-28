@@ -1,6 +1,6 @@
 # Flash Widget
   
-Addon for PyroCMS. Embed Flash Player content anywhere. 
+Addon for PyroCMS. Easily embed Flash Player content in your website.
 
 * Version 1.2
 * Compatible with PyroCMS v2.0.x
@@ -9,8 +9,6 @@ Addon for PyroCMS. Embed Flash Player content anywhere.
 
 ## Usage
   
-Easily embed Flash Player content in your website.
-
 1. Upload a **flash file** through the **Files** admin.
 2. Create a new Flash widget instance in the **Widgets** admin.
 3. Set the **title**, **width** and **height**.
