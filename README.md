@@ -13,7 +13,8 @@ Easily embed Flash Player content in your website.
 
 1. Upload a **flash file** through the **Files** admin.
 2. Create a new Flash widget instance in the **Widgets** admin.
-3. Copy the **widget code** and paste it on a Page, Template or Theme.
+3. Set the **title**, **width** and **height**.
+4. Copy the **widget code** and paste it on page, template or theme.
 
 
 Note: The filename must end with a **.swf** extension. i.e. animation.swf
