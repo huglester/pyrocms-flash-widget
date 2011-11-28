@@ -1,10 +1,11 @@
 # Flash Widget
   
-  Addon for PyroCMS. Embed Flash Player content anywhere. 
+Addon for PyroCMS. Embed Flash Player content anywhere. 
 
-* [PyroCMS Website](http://pyrocms.com/)
+* Version 1.1
+* Compatible with PyroCMS v2.0.x
 * [Issues](https://github.com/obrignoni/flash/issues)
-* Compatible with PyroCMS 2.0
+* [PyroCMS Website](http://pyrocms.com/)
 
 ## Usage
   
