@@ -14,7 +14,7 @@ class Widget_Flash extends Widgets {
     public $description = 'Embed Flash Player content anywhere.';
     public $author = 'Osvaldo Brignoni';
     public $website = 'http://obrignoni.com/';
-    public $version = '1.1';
+    public $version = '1.2';
 
     public $fields = array(
         array(
