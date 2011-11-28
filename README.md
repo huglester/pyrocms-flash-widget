@@ -14,5 +14,4 @@ Addon for PyroCMS. Easily embed Flash Player content in your website.
 3. Set the **title**, **width** and **height**.
 4. Copy the **widget code** and paste it on a page, template or theme.
 
-
 Note: The filename must end with a **.swf** extension. i.e. animation.swf
