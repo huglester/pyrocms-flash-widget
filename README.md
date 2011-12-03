@@ -2,8 +2,8 @@
   
 Addon for PyroCMS. Easily embed Flash Player content in your website.
 
-* Version 1.2
-* Compatible with PyroCMS v2.0.x
+* Version 1.3
+* Compatible with PyroCMS v1.3.x
 * [Issues](https://github.com/obrignoni/flash/issues)
 * [PyroCMS Website](http://pyrocms.com/)
 
