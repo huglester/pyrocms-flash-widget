@@ -10,8 +10,8 @@
 		
 		<?php else: ?>
 
-				<li class="even"
-						<label for="swf_file">Select SWF File</label>
+				<li class="even">
+						<label for="swf_file">SWF File</label>
 						<?php echo form_dropdown('swf_file', $swfs, $options['swf_file']); ?>		
 				</li>
 				<li class="odd">
