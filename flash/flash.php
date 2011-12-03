@@ -44,7 +44,6 @@ class Widget_Flash extends Widgets {
     public function form()
     {
         //Query for files that have a .swf extension
-				
         $query = $this->db->where('extension', '.swf')->get('files');
 
         $files = $query->result();
@@ -52,7 +51,6 @@ class Widget_Flash extends Widgets {
         $swfs = array();
 
         //Format array for dropdown
-
         foreach($files as $file):
 
                 $swfs[$file->filename] = $file->name;
