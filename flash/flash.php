@@ -1,9 +1,9 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * @package 		PyroCMS
+ * @package 			PyroCMS
  * @subpackage 		Flash Object
- * @author		Osvaldo Brignoni
+ * @author				Osvaldo Brignoni
  * 
  * Embed Flash Player content anywhere. Uses SWFObject http://code.google.com/p/swfobject/
  */
