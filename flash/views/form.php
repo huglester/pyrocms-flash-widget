@@ -1,30 +1,30 @@
-<fieldset id="filters" class="flash-options">
-		<label for="swf_file">Select SWF File</label>
-		<ul>
-				<li class="even">
-								
-				<?php
-						if(empty ($swfs)) {
-								echo '<a href="admin/files" class="btn red">No SWF files available. Upload here.</a>.';
-						}		
-						else {
-								echo form_dropdown('swf_file', $swfs, $options['swf_file']);
-						}
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed'); ?>
 
-				?>
-				
+<fieldset id="filters">
+<ul>
+	
+		<?php if(empty ($swfs)): ?>
+		
+				<li class="odd buttons buttons-small">
+						<a href="admin/files" class="btn red">No SWF files available. Upload here.</a>
+				</li>
+		
+		<?php else: ?>
+
+				<li class="even">
+						<label for="swf_file">SWF File</label><br>
+						<?php echo form_dropdown('swf_file', $swfs, $options['swf_file']); ?>		
 				</li>
 				<li class="odd">
-				<label for="width">Width</label>
-				
-				<?php echo form_input('width', $options['width']); ?>
-				
+						<label for="width">Width</label><br>
+						<?php echo form_input('width', $options['width']); ?>
 				</li>
 				<li class="even">
-						<label for="height">Height</label>
-						
+						<label for="height">Height</label><br>
 						<?php echo form_input('height', $options['height']); ?>
-				
-				</li>
-		</ul>
+				</li>	
+		
+		<?php endif; ?>
+
+</ul>
 </fieldset>
