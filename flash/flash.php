@@ -1,9 +1,9 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 /**
- * @package 		PyroCMS
+ * @package 			PyroCMS
  * @subpackage 		Flash Object
- * @author		Osvaldo Brignoni
+ * @author				Osvaldo Brignoni
  * 
  * Embed Flash Player content anywhere. Uses SWFObject http://code.google.com/p/swfobject/
  */
@@ -62,7 +62,6 @@ class Widget_Flash extends Widgets {
 
     public function run($options)
     {
-				
 				$options['swfobject_once'] = self::swfobject_once();
 				
 				$options['swf_file_path'] = BASE_URL . UPLOAD_PATH . 'files/' . $options['swf_file'];
@@ -75,7 +74,6 @@ class Widget_Flash extends Widgets {
         !empty($options['height']) OR $options['height'] = '120';
 
         return $options;
-
     }
 
     public function save($options)
